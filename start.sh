@@ -8,6 +8,8 @@ terminator -e '~/src/clusters/pi_to_blue.sh' &
 
 terminator -e '~/src/clusters/input.py' &
 
+terminator -e '~/src/clusters/chat/startserver.py' &
+
 echo "ssh on, blue_to_pi on.sh, pi_to_blue.sh on, input.py on"
 
 
