@@ -1,12 +1,12 @@
 #!/bin/bash
 
-terminator -e 'ssh otto@192.168.1.68' &
+xterm -geometry 70x10+5+35 -e 'ssh otto@192.168.1.68' &
 
-terminator -e '~/src/clusters/blue_to_pi.sh' &
+xterm -geometry 70x10+5+235 -e '~/src/clusters/blue_to_pi.sh' &
 
-terminator -e '~/src/clusters/pi_to_blue.sh' &
+xterm -geometry 70x10+5+435 -e '~/src/clusters/pi_to_blue.sh' &
 
-terminator -e '~/src/clusters/input.py' &
+xterm -geometry 70x10+500+35 -e '~/src/clusters/input.py' &
 
 terminator -e '~/src/clusters/chat/startserver.py' &
 
