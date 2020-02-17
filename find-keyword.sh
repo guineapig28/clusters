@@ -3,7 +3,7 @@
 while :
 do
 
-for f in ./*
+for f in info/
 do
 	echo "checking file $f"
 	if grep $(cat check.txt) $f >/dev/null
