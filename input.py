@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
+while True:
+    search = input('What do you want to search for:')
+    f = open('check.txt', 'w')
+    f.write(search)
+    f.close()
 
-search = input('What do you want to search for:')
-f = open('chat/cgi-bin/data.html'data.html', 'w')
-f.write(search)
-f.close()
 
-
-print ('Searching for {}'.format(search))
+    print ('Searching for {}'.format(search))
 
