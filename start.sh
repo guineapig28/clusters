@@ -6,9 +6,7 @@ xterm -geometry 70x10+5+235 -e '~/src/clusters/blue_to_pi.sh' &
 
 xterm -geometry 70x10+5+435 -e '~/src/clusters/pi_to_blue.sh' &
 
-xterm -geometry 70x10+500+35 -e '~/src/clusters/input.py' &
-
-terminator -e '~/src/clusters/chat/startserver.py' &
+xterm -geometry 70x10+500+235 -e '~/src/clusters/input.py' &
 
 echo "ssh on, blue_to_pi on.sh, pi_to_blue.sh on, input.py on"
 
