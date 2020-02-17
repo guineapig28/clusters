@@ -10,5 +10,6 @@ do
 	then
 		cp -f $f data/data.txt
 	fi
+	sleep 5
 done
 done
